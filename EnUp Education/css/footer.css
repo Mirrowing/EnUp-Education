@@ -1,0 +1,12 @@
+/* -- Footer container -- */
+.footer {width: 100%;}
+/* -- Technical classes -- */
+.side {width: 100%;}
+.top {justify-content: space-around; border-top: 1px solid #1e1a1a;}
+.bottom {justify-content: space-between;}
+/* -- Semantic Classes -- */
+.section-wrapper {flex-direction: row; padding: 30px 0px;}
+.bottom-side {background-color: #aba2f0;}
+.f-head {font-size: 24px; margin: 0px 0px 15px;}
+.f-text {font-size: 22px;}
+.about-item, .contact-item, .social-item {padding: 10px 5px;}

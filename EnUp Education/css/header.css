@@ -1,0 +1,7 @@
+/* -- Header container */
+.header {width: 100%; background-color: #aba2f0;}
+/* -- Technical Classes -- */
+.list {display: flex; flex-direction: row;}
+/* -- Semantic Classes -- */
+.header-wrapper {padding: 20px 0px; justify-content: space-between; align-items: center;}
+.nav-item {padding: 0px 30px; text-align: center;}

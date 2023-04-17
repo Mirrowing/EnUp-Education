@@ -1,0 +1,29 @@
+/* -- Technical Classes -- */
+.link {color: #1e1a1a; transition: 1.2s ease;}
+/* -- Semantic Classes -- */
+.h-link {font-size: 28px;}
+.nav-link {padding: 5px 15px; border: 1px solid #aba2f0; border-radius: 15px;}
+.nav-link:hover {border: 1px solid #1e1a1a; transition: 1s ease;}
+/* -- */
+.s-link {margin: 60px 0px; padding: 10px 25px; border: 1px solid #1e1a1a; border-radius: 15px; font-size: 24px; letter-spacing: 4px;}
+.s-link:hover {border: 1px solid rgb(221, 52, 52); color: rgb(221, 52, 52); transition: 1s ease;}
+/* -- Tabulation buttons -- */
+.tabs__btn {
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #dcebf7;
+    color: #192024;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0px 15px;
+    cursor: pointer;}
+.tabs__btn_active {
+    background: #aba2f0;
+    cursor: pointer;}
+.tabs__btn:not(.tabs__btn_active):hover,
+.tabs__btn:not(.tabs__btn_active):focus {
+    background-color: #eee;}
